@@ -88,9 +88,6 @@ const PostList = () => {
   return (
     <Container>
       <StyledAppBar position="sticky" color="primary">
-        <Typography variant="h1" component="h1" align="center" gutterBottom>
-          GoBananas Posts
-        </Typography>
         <StyledToolbar>
           <Search>
             <StyledInputBase

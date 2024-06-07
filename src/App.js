@@ -11,6 +11,9 @@ const App = () => {
       <CssBaseline />
       <Paper style={{ minHeight: "100vh" }}>
         <Container>
+          <Typography variant="h3" component="h1" align="center" gutterBottom>
+            GoBananas Posts
+          </Typography>
           <PostList />
         </Container>
       </Paper>
